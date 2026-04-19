@@ -19,11 +19,7 @@
         <!-- 错误颜色 -->
         <item name="colorError">@color/error</item>
 
-        <!-- 状态栏 -->
-        <item name="android:statusBarColor">@color/status_bar_color</item>
 
-        <!-- 导航栏 -->
-        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
 
         <!-- ActionBar -->
         <item name="windowActionBar">false</item>

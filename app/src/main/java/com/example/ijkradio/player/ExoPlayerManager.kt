@@ -110,7 +110,7 @@ class ExoPlayerManager private constructor(private val context: Context) {
 
                 val mediaSource = when {
                     uri.lastPathSegment?.endsWith(".m3u8", ignoreCase = true) == true ||
-                    Util.inferContentType(uri) == C.TYPE_HLS -> {
+                    Util.inferContentType(uri) == C.CONTENT_TYPE_HLS -> {
                         HlsMediaSource.Factory(dataSourceFactory)
                             .createMediaSource(mediaItem)
                     }
